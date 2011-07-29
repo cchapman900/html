@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Student Mercenary - Edit Profile</title>
+	<!--[if lte IE 7]>
+        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
+    <![endif]-->
+
+
+<!-- CSS -->
+<link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="stylesheets/structure.css" type="text/css" />
+<link rel="stylesheet" href="stylesheets/form.css" type="text/css" />
+
+<!-- JavaScript -->
+			
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>	
+	<script type="text/javascript" language="javascript" src="js/jquery.dropdownPlain.js"></script>
+	<script src="scripts/wufoo.js"></script>
+
+<!--[if lt IE 10]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body id="public">
+	<div id="page-wrap">
+	<div id="header-container">
+    	<div id="header-top">
+        	<a href="/"><img src="images/logo.png" alt="Student Mercenary" align="left" style="margin:10px 0" name="Student Mercenary" width="177" height="20" display:block; /></a>
+        	
+            <ul class="dropdown" id="dropdown-profile">
+            	<li><a href="sample_student.html">Chris Chapman</a>
+               		 <ul class="sub_menu">
+                        <li><a href="student_edit_profile.html">Edit profile</a></li>
+                    </ul>
+                </li>
+            </ul>
+            
+  		</div><!-- END HEADER TOP -->
+        
+    </div><!-- END HEADER CONTAINER -->
+        
+        
+        
+        <div id="outer-container">
+	    <div id="content-container">
+                <div id="container">
+                
+                    <form id="form5" name="form5" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+action="https://studentmercenary.wufoo.com/forms/s7x2p7/#public">
+
+                        <header id="header" class="info">
+                        <h2>Edit Company User Profile</h2>
+                        <div></div>
+                        </header>
+                        
+                        <ul>
+                        
+                            <li id="foli1" class="     ">
+                                <label class="desc" id="title1" for="Field1">
+                                Name
+                                </label>
+                                <span>
+                                <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1" />
+                                <label for="Field1">First</label>
+                                </span>
+                                <span>
+                                <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" tabindex="2" />
+                                <label for="Field2">Last</label>
+                                </span>
+                            </li>
+                            <li id="foli116" class="     ">
+                                <label class="desc" id="title116" for="Field116">
+                                Profile Picture
+                                </label>
+                                <div>
+                                <input id="Field116" name="Field116" type="text" class="field text medium" value="" maxlength="255" tabindex="3" onkeyup="" readonly="readonly" style="background:#CFC" />
+                                </div>
+                            </li>
+                            <li id="foli104" class="     ">
+                                <label class="desc" id="title104" for="Field104">
+                                Position
+                                </label>
+                                <div>
+                                <input id="Field104" name="Field104" type="text" class="field text medium" value="" maxlength="255" tabindex="4" onkeyup="" />
+                                </div>
+                            </li>
+                            <li id="foli3" class="     ">
+                                <label class="desc" id="title3" for="Field3">
+                                Contact email
+                                </label>
+                                <div>
+                                <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="5" /> 
+                                </div>
+                            </li>
+                            <li id="foli106" 
+                            class="     ">
+                                <label class="desc" id="title106" for="Field106">
+                                About me:
+                                </label>
+                                
+                                <div>
+                                <textarea id="Field106" 
+                                name="Field106" 
+                                class="field textarea small" 
+                                spellcheck="true" 
+                                rows="10" cols="50" 
+                                tabindex="6" 
+                                onkeyup=""
+                                 ></textarea>
+                                
+                                </div>
+                            </li>
+                            <li id="foli111" class="leftThird     ">
+                                <label class="desc" id="title111" for="Field111">
+                                Change password
+                                </label>
+                                <div>
+                                <input id="Field111" name="Field111" type="password" class="field text small" value="" maxlength="255" tabindex="7" onkeyup="validateRange(111, 'character');" />
+                                <label for="Field111">Must be at least <var id="rangeMinMsg111">6</var> characters.&nbsp;&nbsp;&nbsp; <em class="currently">Currently Used: <var id="rangeUsedMsg111">0</var> characters.</em></label>
+                                </div>
+                            </li>
+                            <li id="foli114" class="middleThird     ">
+                                <label class="desc" id="title114" for="Field114">
+                                Retype new password
+                                </label>
+                                <div>
+                                <input id="Field114" name="Field114" type="password" class="field text small" value="" maxlength="255" tabindex="8" onkeyup="" />
+                                </div>
+                            </li>
+                            <li id="foli112" class="rightThird     ">
+                                <label class="desc" id="title112" for="Field112">
+                                Current password
+                                <span id="req_112" class="req">*</span>
+                                </label>
+                                <div>
+                                <input id="Field112" name="Field112" type="password" class="field text small" value="" maxlength="255" tabindex="9" onkeyup="" required />
+                                </div>
+                            </li>
+                        
+                            <li class="buttons ">
+                                <div>
+                                
+                                <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Save Changes" disabled="disabled"
+                                 /></div>
+                            </li>
+                        
+                            <li class="hide">
+                                <label for="comment">Do Not Fill This Out</label>
+                                <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                                <input type="hidden" id="idstamp" name="idstamp" value="aBr4l0oI81aIaCpVd/BDsNEo/aTYQMOr6OTOSA58NpU=" />
+                            </li>
+                        </ul>
+                    </form>
+                    
+            <p style="color:#080; margin-top:30px">*Still need to be able to upload a photo</p>
+                
+                
+            </div><!--container-->
+          </div><!-- END OUTER CONTAINER -->
+        </div><!-- END CONTENT CONTAINER -->
+    </div><!-- END PAGE WRAP -->
+
+</body>
+</html>
+

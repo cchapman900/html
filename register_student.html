@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Student Mercenary - Student Registration</title>
+	<!--[if lte IE 7]>
+        <link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" />
+    <![endif]-->
+
+
+<!-- CSS -->
+<link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="stylesheets/structure.css" type="text/css" />
+<link rel="stylesheet" href="stylesheets/form.css" type="text/css" />
+
+<!-- JavaScript -->
+			
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>	
+	<script type="text/javascript" language="javascript" src="js/jquery.dropdownPlain.js"></script>
+	<script src="scripts/wufoo.js"></script>
+
+<!--[if lt IE 10]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body id="public">
+	<div id="page-wrap">
+	<div id="header-container">
+    	<div id="header-top">
+        	<a href="/"><img src="images/logo.png" alt="Student Mercenary" align="left" style="margin:10px 0" name="Student Mercenary" width="177" height="20" display:block; /></a>
+        	<table id="sign-in" width="100"  align="right">
+  				<tr>
+                    <td><a id="sign-in" href="sign-in.html">sign in</a></td>
+                    <td><a id="register" href="register.html">register</a></td>
+                </tr>
+            </table>
+  		</div><!-- END HEADER TOP -->
+        
+		<div id="header-bottom">
+            <ul class="dropdown" id="dropdown-nav">
+                <li><a href="browse_projects.html">Browse Projects</a>
+        		</li>
+        		<li><a href="sample_post_project.html">Post a Project</a>
+        		</li>
+            	<li><a href="about.html">About</a>
+                </li>
+            </ul>
+        </div><!-- END HEADER BOTTOM -->
+    </div><!-- END HEADER CONTAINER -->
+        
+        
+        
+        <div id="outer-container">
+       		<div id="content-container">
+                <div id="container">
+                
+                    <form id="form1" name="form1" class="wufoo rightLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+action="http://studentmercenary.wufoo.com/forms/z7x3k7/#public">
+
+                        <header id="header" class="info">
+                        <h2 class="yellow3">Student Registration</h2>
+                        <div></div>
+                        </header>
+                        
+                        <ul>
+                        
+                            <li id="foli1" class="     ">
+                                <label class="desc" id="title1" for="Field1">
+                                Name
+                                <span id="req_1" class="req">*</span>
+                                </label>
+                                <span>
+                                <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1" required />
+                                <label for="Field1">First</label>
+                                </span>
+                                <span>
+                                <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" tabindex="2" required />
+                                <label for="Field2">Last</label>
+                                </span>
+                            </li>
+                            <li id="foli5" class="     ">
+                                <label class="desc" id="title5" for="Field5">
+                                Email
+                                <span id="req_5" class="req">*</span>
+                                </label>
+                                <div>
+                                <input id="Field5" name="Field5" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" required /> 
+                                </div>
+                                <p class="instruct" id="instruct5"><small>Please enter a valid .edu email address.</small></p>
+                            </li>
+                            <li id="foli7" class="     ">
+                                <label class="desc" id="title7" for="Field7">
+                                School
+                                </label>
+                                <div>
+                                <input id="Field7" name="Field7" type="text" class="field text medium" value="Boston University" maxlength="255" tabindex="4" onkeyup="" readonly="true" style="background:#FFC"/>
+                                </div>
+                                <p class="instruct" id="instruct7" style="width:50%; margin-left:-97px"><small>If your school does not appear, please make sure you used a valid .edu address from an accredited college or university.<br />
+                                <br />
+                                If you are having problems, please contact us <a href="#">here</a>.</small></p>
+                            </li>
+                            <li id="foli111" class="     ">
+                                <label class="desc" id="title111" for="Field111">
+                                Password
+                                <span id="req_111" class="req">*</span>
+                                </label>
+                                <div>
+                                <input id="Field111" name="Field111" type="password" class="field text medium" value="" maxlength="255" tabindex="5" onkeyup="" required />
+                                </div>
+                            </li>
+                            <li id="foli112" class="     ">
+                                <label class="desc" id="title112" for="Field112">
+                                Confirm Password
+                                <span id="req_112" class="req">*</span>
+                                </label>
+                                <div>
+                                <input id="Field112" name="Field112" type="password" class="field text medium" value="" maxlength="255" tabindex="6" onkeyup="" required />
+                                </div>
+                            </li>
+                            <li id="foli216" class="     ">
+                                <fieldset>
+                                    <![if !IE | (gte IE 8)]>
+                                    <legend id="title216" class="desc">
+                                    Please view our <a href="#">terms and conditions</a>
+                                    
+                                </legend>
+                                    <![endif]>
+                                    <!--[if lt IE 8]>
+                                    <label id="title216" class="desc">
+                                    Please view our terms and conditions here
+                                    <span id="req_216" class="req">*</span>
+                                    </label>
+                                    <![endif]-->
+                                    <div>
+                                    <span>
+                                    <input id="Field216" name="Field216" type="checkbox" class="field checkbox" value="I agree to the terms and conditions" tabindex="7" />
+                                    <label class="choice" for="Field216">I agree to the terms and conditions <span id="req_216" class="req">*</span></label>
+                                    </span>
+                                    </div>
+                                </fieldset>
+                            </li>
+                        
+                            <li class="buttons ">
+                                <div>
+                                
+                                <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submit" disabled="disabled"
+                                 /></div>
+                            </li>
+                        
+                            <li class="hide">
+                            <label for="comment">Do Not Fill This Out</label>
+                            <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                            <input type="hidden" id="idstamp" name="idstamp" value="G/dQXPCPG3aCetdirOz7EDzSMwPin9GzmUcNJPItHoI=" />
+                            </li>
+                        </ul>
+                    </form>
+                    
+            
+                
+                
+                </div><!--container-->
+            </div><!-- END OUTER CONTAINER -->
+        </div><!-- END CONTENT CONTAINER -->
+    </div><!-- END PAGE WRAP -->
+
+</body>
+</html>
